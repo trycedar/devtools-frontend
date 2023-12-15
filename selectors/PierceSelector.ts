@@ -13,7 +13,7 @@ import {
 import {
   pierceQuerySelectorAll,
 } from
-    '../../../../third_party/puppeteer/package/lib/esm/puppeteer/injected/PierceQuerySelector.js';
+    'puppeteer-core/lib/esm/puppeteer/injected/PierceQuerySelector.js';
 
 class PierceSelectorRangeOpts implements RangeOps<QueryableNode, string[][]> {
   #selector: string[][] = [[]];

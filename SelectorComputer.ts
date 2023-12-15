@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {type SelectorType} from '../../../third_party/puppeteer-replay/puppeteer-replay.js';
+import {type SelectorType} from '@puppeteer/replay';
 import {type Logger} from './Logger.js';
 import {MonotonicArray} from './MonotonicArray.js';
 

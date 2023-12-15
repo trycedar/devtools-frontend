@@ -6,7 +6,7 @@ import {
   type Schema,
   type SelectorType,
   type StepType,
-} from '../../../third_party/puppeteer-replay/puppeteer-replay.js';
+} from '@puppeteer/replay';
 import {Logger} from './Logger.js';
 import {SelectorComputer} from './SelectorComputer.js';
 import {type Step} from './Step.js';
